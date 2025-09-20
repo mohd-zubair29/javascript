@@ -82,3 +82,33 @@ myfunction();
 console.log(typeof heros);
 console.log(typeof mydata);
 console.log(typeof myfunction);
+
+
+//STACK AND HEAP
+/*
+STACK(PRIMITIVE)  //jab be yeh use karte uska copy milta
+HEAP(NON-PRIMITIVE)  //reference milta 
+*/
+
+let email="zubzubair29@gmail.com";
+console.log(email);
+
+let newemail=email;
+console.log(newemail);
+
+
+let newuser={              //heap mein change karre tou original mein change karre jaisa ich 
+    name:"zubair",
+    email:"zubair@gamil.com"
+};
+
+console.log(newuser);
+
+let user2={                    
+    name:"zayed",
+    email:'zayed@gmail.com',
+}
+
+
+user2.email="zaed786@gmail.com";
+console.log(user2);
