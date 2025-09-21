@@ -20,10 +20,30 @@ console.log(numerator.toLocaleString('en-IN'));  //This Will Give The Indain Sta
 
 
 //*******************MATHS******************************
-
+/*
 let lumber=300;
 console.log(Math);
 
 console.log((Math.floor(3.40))); //This Method Will Take A Floor Value Or Below Value /Lowest Value Lega
 console.log((Math.ceil(39.87))); //This Method Will TAke An Above Value Or Upper Value / Greater Value Leta
 
+let lumbers=5;
+let equal= (Math.sqrt(lumbers));   //this will give the 2.477 something around value
+console.log(Math.ceil(equal));     //By using this we can make round of the value
+
+
+
+// console.log(Math.min(8,9,99,4,31, 9, 12, 45, 76));
+*/
+
+console.log(Math.random());  //This Will Give The Value From 0 to 1 In Decimal Value Only
+console.log(Math.random()*10);  //If We Want Value From 0 To 10 We Have to Use Like This
+console.log((Math.random()*10)+1);   //This Is USed To Avoid the result from zero so we add +1
+console.log((Math.floor(Math.random()*10))+1);  //This Will Remove The Decimal Values and Give The Lowest Value That Is Round off 
+
+
+//If We Want Value From Required Number
+const min=10;
+const max=20;
+
+console.log((Math.floor(Math.random()*(max-min +1)))+min);   //This Give The Value From Above 10 and Maximum 20
