@@ -1,0 +1,49 @@
+JavaScript Execution Context
+
+code => Global Execution Context
+         THis On Browseris different and on Node Is different
+
+There Are Three Types
+1=> Global Exection Context
+2=> eval Execution Context
+3=> Functional Execution Context
+
+
+Phases/Working of JavaScript
+
+1=> Memory Creation Phases
+2=> Execution Creation Phases
+
+1.Step
+Global Execution => This 
+
+2.Step
+Memory Phases
+
+1    val1= undefined                                                                       
+2     val2= undefined
+3     add= defination will saved
+4    result1 = undefined
+5    result2= undefined 
+                                                                            let val1=10;
+                                                                            let val2=20;
+                                                                            function add(num1, num2){
+                                                                            const tot= (num1+ num2);
+                                                                            return tot
+                                                                            }
+                                                                            let result1=add(val1, val2);
+                                                                            let result2=add(5,10)
+
+2=>Execution Context
+
+val1=5
+val2=20
+add(num1+num2)
+result1=add(val=10, val2=20)
+result2=add(5,10)
+
+                                                                    New Variable Environment
+                                                                     single thread   
+                                                                     for function
+
+ 
