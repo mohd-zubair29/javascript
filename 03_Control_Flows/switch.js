@@ -39,11 +39,15 @@ switch(day){
                 console.log("Thursday")
             break;
                 case 5:
-                    console.log("Friday")
+                    console.log("Friday")                  //Output=Thursday =4
                  break;
                 case 6:
                     console.log("Saturday")
                     break;
                 case 7:
-                    console.log("Sunday")              
+                    console.log("Sunday")   
+                    
+                    default:
+                        console.log("Not A week Day");
+                        break;
 }
