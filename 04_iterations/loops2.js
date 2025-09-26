@@ -28,10 +28,10 @@ The Value At 3 Is Tabassum
 
 //In Do While First Work Will Be Done Then Condition Will Be Checked
 
-
-let score=1;             //First We have To Initilize The Value
-do{
-   console.log(`The Score Is Right Now Is ${score}`)      
-   score=score+1;           //Wheater We Want To Increase Or Decrease The variable Values
-}while(score <=15);         //We Have To Add The Condition
-
+for (let i=1; i<=3; i++){
+    console.log("****");
+    for(let j=1;j<=2;j++){
+        console.log("***")
+        
+    }
+}
